@@ -1,13 +1,14 @@
 {
   "name": "ai-screening",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "ts-node src/index.ts",
-    "server": "ts-node src/server.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "AI Candidate Screening Backend",
+  "main": "dist/server.js",
+"scripts": {
+  "dev": "ts-node src/server.ts",
+  "build": "tsc",
+  "start": "node dist/server.js",
+  "server": "ts-node src/server.ts"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
